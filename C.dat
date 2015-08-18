@@ -1,0 +1,258 @@
+[NUCLEOS]
+Nucleos=1
+Atomo(1,centro)=1
+Atomo(1,znuc)=6
+
+[FBASE]
+numero de funciones de base:
+NumFB=5
+tipo de las funciones de base:
+TipoFB=1
+Normalizacion de las SUBfunciones de base, =0 coef. para SFB no normalizadas, =1 para SFB normalizadas
+NORMSFB=0
+Empleo de funciones recortadas (TSTOs),  =1 son TSTO, =0 son STO, BO o SBO
+Recortadas=1
+Cálculo de integrales nulas (=0 se calculan, =1 se saltan)
+Bielec=0
+
+FBase(1,Centro)=1
+FBase(1,ParteAngular)=0
+FBase(1,numgauss)=3
+FBase(1,1,Coeficiente)=0.1543289673
+FBase(1,1,Parametro1)=0
+FBase(1,1,Parametro2)=0
+FBase(1,1,Parametro3)=71.61683735
+FBase(1,2,Coeficiente)=0.5353281423
+FBase(1,2,Parametro1)=0
+FBase(1,2,Parametro2)=0
+FBase(1,2,Parametro3)=13.04509632
+FBase(1,3,Coeficiente)=0.4446345422
+FBase(1,3,Parametro1)=0
+FBase(1,3,Parametro2)=0
+FBase(1,3,Parametro3)=3.53051216
+FBase(1,RadioCorte0)=0
+FBase(1,AnchuraCorte0)=0
+FBase(1,RadioCorte1)=0
+FBase(1,AnchuraCorte1)=0
+FBase(1,TipoIntCorte)=0
+FBase(1,Formula)=0.1543289673 Exp(-71.61683735 r^2) + 0.5353281423 Exp(-13.04509632 r^2) + 0.4446345422 Exp(-3.53051216 r^2)
+
+FBase(2,Centro)=1
+FBase(2,ParteAngular)=0
+FBase(2,numgauss)=3
+FBase(2,1,Coeficiente)=-0.09996722919
+FBase(2,1,Parametro1)=0
+FBase(2,1,Parametro2)=0
+FBase(2,1,Parametro3)=2.941249355
+FBase(2,2,Coeficiente)=0.3995128261
+FBase(2,2,Parametro1)=0
+FBase(2,2,Parametro2)=0
+FBase(2,2,Parametro3)=0.6834830964
+FBase(2,3,Coeficiente)=0.7001154689
+FBase(2,3,Parametro1)=0
+FBase(2,3,Parametro2)=0
+FBase(2,3,Parametro3)=0.2222899159
+FBase(2,RadioCorte0)=0
+FBase(2,AnchuraCorte0)=0
+FBase(2,RadioCorte1)=0
+FBase(2,AnchuraCorte1)=0
+FBase(2,TipoIntCorte)=0
+FBase(2,Formula)=-0.09996722919 Exp(-2.941249355 r^2) + 0.3995128261 Exp(-0.6834830964 r^2) + 0.7001154689 Exp(-0.2222899159 r^2)
+
+FBase(3,Centro)=1
+FBase(3,ParteAngular)=1
+FBase(3,numgauss)=3
+FBase(3,1,Coeficiente)=0.155916275
+FBase(3,1,Parametro1)=0
+FBase(3,1,Parametro2)=0
+FBase(3,1,Parametro3)=2.941249355
+FBase(3,2,Coeficiente)=0.6076837186
+FBase(3,2,Parametro1)=0
+FBase(3,2,Parametro2)=0
+FBase(3,2,Parametro3)=0.6834830964
+FBase(3,3,Coeficiente)=0.3919573931
+FBase(3,3,Parametro1)=0
+FBase(3,3,Parametro2)=0
+FBase(3,3,Parametro3)=0.2222899159
+FBase(3,RadioCorte0)=0
+FBase(3,AnchuraCorte0)=0
+FBase(3,RadioCorte1)=0
+FBase(3,AnchuraCorte1)=0
+FBase(3,TipoIntCorte)=0
+FBase(3,Formula)=0.155916275 Exp(-2.941249355 r^2) + 0.6076837186 Exp(-0.6834830964 r^2) + 0.3919573931 Exp(-0.2222899159 r^2)
+
+FBase(4,Centro)=1
+FBase(4,ParteAngular)=2
+FBase(4,numgauss)=3
+FBase(4,1,Coeficiente)=0.155916275
+FBase(4,1,Parametro1)=0
+FBase(4,1,Parametro2)=0
+FBase(4,1,Parametro3)=2.941249355
+FBase(4,2,Coeficiente)=0.6076837186
+FBase(4,2,Parametro1)=0
+FBase(4,2,Parametro2)=0
+FBase(4,2,Parametro3)=0.6834830964
+FBase(4,3,Coeficiente)=0.3919573931
+FBase(4,3,Parametro1)=0
+FBase(4,3,Parametro2)=0
+FBase(4,3,Parametro3)=0.2222899159
+FBase(4,RadioCorte0)=0
+FBase(4,AnchuraCorte0)=0
+FBase(4,RadioCorte1)=0
+FBase(4,AnchuraCorte1)=0
+FBase(4,TipoIntCorte)=0
+FBase(4,Formula)=0.155916275 Exp(-2.941249355 r^2) + 0.6076837186 Exp(-0.6834830964 r^2) + 0.3919573931 Exp(-0.2222899159 r^2)
+
+FBase(5,Centro)=1
+FBase(5,ParteAngular)=3
+FBase(5,numgauss)=3
+FBase(5,1,Coeficiente)=0.155916275
+FBase(5,1,Parametro1)=0
+FBase(5,1,Parametro2)=0
+FBase(5,1,Parametro3)=2.941249355
+FBase(5,2,Coeficiente)=0.6076837186
+FBase(5,2,Parametro1)=0
+FBase(5,2,Parametro2)=0
+FBase(5,2,Parametro3)=0.6834830964
+FBase(5,3,Coeficiente)=0.3919573931
+FBase(5,3,Parametro1)=0
+FBase(5,3,Parametro2)=0
+FBase(5,3,Parametro3)=0.2222899159
+FBase(5,RadioCorte0)=0
+FBase(5,AnchuraCorte0)=0
+FBase(5,RadioCorte1)=0
+FBase(5,AnchuraCorte1)=0
+FBase(5,TipoIntCorte)=0
+FBase(5,Formula)=0.155916275 Exp(-2.941249355 r^2) + 0.6076837186 Exp(-0.6834830964 r^2) + 0.3919573931 Exp(-0.2222899159 r^2)
+
+[CENTROS]
+NumCentros=1
+Centro(1,x)=0.00000000
+Centro(1,y)=0.00000000
+Centro(1,z)=0.00000000
+
+[METODOINTEGRACION]
+Metodo=GSS
+Semilla=1
+NumPuntos=1000000
+Fichgss=
+
+[INTEGRALES]
+FicheroInt =C
+Integrales = 0
+TipoInt = j
+Indice1 = 1
+Indice2 = 1
+Indice3 = 1
+Indice4 = 1
+FPeso(NPolig) = 0
+FPeso(Inicio) = 0
+FPeso(fin) = 0
+FPeso(Incremento) = 0
+
+[METODOCALCULO]
+metodo = HF
+NmaxIter = 1000
+ControlConvergencia = 1
+Tolerancia = 0.0000001
+FactorAmortiguacion = 0.5
+IteracionComienzoAmortiguacion = 0
+
+[ESTADOELECTRONICO]
+NumOcupAlfa(1)=1
+NumOcupBeta(1)=1
+NumOcupAlfa(2)=1
+NumOcupBeta(2)=1
+NumOcupAlfa(3)=1
+NumOcupBeta(3)=0
+NumOcupAlfa(4)=1
+NumOcupBeta(4)=0
+CoefOcupAlfa(1, 1) =0
+CoefOcupBeta(1, 1) =0
+CoefOcupAlfa(1, 1) =0
+CoefOcupBeta(1, 1) =0
+CoefOcupAlfa(1, 2) =0
+CoefOcupBeta(1, 2) =0
+CoefOcupAlfa(1, 2) =0
+CoefOcupBeta(1, 2) =0
+CoefOcupAlfa(1, 3) =0
+CoefOcupBeta(1, 3) =0
+CoefOcupAlfa(1, 3) =0
+CoefOcupBeta(1, 3) =0
+CoefOcupAlfa(1, 4) =0
+CoefOcupBeta(1, 4) =0
+CoefOcupAlfa(1, 4) =0
+CoefOcupBeta(1, 4) =0
+CoefOcupAlfa(2, 1) =0
+CoefOcupBeta(2, 1) =0
+CoefOcupAlfa(2, 1) =0
+CoefOcupBeta(2, 1) =0
+CoefOcupAlfa(2, 2) =0
+CoefOcupBeta(2, 2) =0
+CoefOcupAlfa(2, 2) =0
+CoefOcupBeta(2, 2) =0
+CoefOcupAlfa(2, 3) =0
+CoefOcupBeta(2, 3) =0
+CoefOcupAlfa(2, 3) =0
+CoefOcupBeta(2, 3) =0
+CoefOcupAlfa(2, 4) =0
+CoefOcupBeta(2, 4) =0
+CoefOcupAlfa(2, 4) =0
+CoefOcupBeta(2, 4) =0
+CoefOcupAlfa(3, 1) =0
+CoefOcupBeta(3, 1) =0
+CoefOcupAlfa(3, 1) =0
+CoefOcupBeta(3, 1) =0
+CoefOcupAlfa(3, 2) =0
+CoefOcupBeta(3, 2) =0
+CoefOcupAlfa(3, 2) =0
+CoefOcupBeta(3, 2) =0
+CoefOcupAlfa(3, 3) =0
+CoefOcupBeta(3, 3) =0
+CoefOcupAlfa(3, 3) =0
+CoefOcupBeta(3, 3) =0
+CoefOcupAlfa(3, 4) =0
+CoefOcupBeta(3, 4) =0
+CoefOcupAlfa(3, 4) =0
+CoefOcupBeta(3, 4) =0
+CoefOcupAlfa(4, 1) =0
+CoefOcupBeta(4, 1) =0
+CoefOcupAlfa(4, 1) =0
+CoefOcupBeta(4, 1) =0
+CoefOcupAlfa(4, 2) =0
+CoefOcupBeta(4, 2) =0
+CoefOcupAlfa(4, 2) =0
+CoefOcupBeta(4, 2) =0
+CoefOcupAlfa(4, 3) =0
+CoefOcupBeta(4, 3) =0
+CoefOcupAlfa(4, 3) =0
+CoefOcupBeta(4, 3) =0
+CoefOcupAlfa(4, 4) =0
+CoefOcupBeta(4, 4) =0
+CoefOcupAlfa(4, 4) =0
+CoefOcupBeta(4, 4) =0
+
+[POTENCIALEXT]
+Potencial(X) = 0
+Potencial(Y) = 0
+Potencial(z) = 0
+
+[PROPIEDADES]
+MomentoDipolar = 0
+Poblaciones = 0
+
+[RESULTADOS]
+Escritura(0) = 1
+Escritura(1) = 1
+Escritura(2) = 1
+Escritura(3) = 1
+Escritura(4) = 1
+Escritura(5) = 1
+Escritura(6) = 1
+Escritura(7) = 1
+Escritura(8) = 1
+Escritura(9) = 1
+Escritura(10) = 1
+Escritura(11) = 1
+Escritura(12) = 1
+Escritura(13) = 1
